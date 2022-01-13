@@ -1,0 +1,54 @@
+
+.ant-modal{
+    width: 900px !important;
+}
+.itemss{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    margin: 0 3px;
+border: 1px solid #cacaca;
+}
+.schedule{
+    .list-item{
+width: 24px;
+height: 30px;
+margin: 0 5px;
+border: 1px solid #cacaca;
+text-align: center;
+border-radius: 7px;
+margin-bottom: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+
+    }
+    .color{
+        
+        width: 20px;
+        height: 20px;
+        border: 1px solid #cacaca;
+        border-radius: 3px;
+        margin-right: 5px;
+    }
+}
+.ant-row{
+    text-align: start;
+    margin: 20px 0;
+    .ant-row{
+        text-align: start;
+        margin: 0;
+    }
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.m-1{
+    margin: 5px;
+}

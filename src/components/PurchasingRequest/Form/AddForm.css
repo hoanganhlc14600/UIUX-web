@@ -1,0 +1,12 @@
+.hienInput {
+  width: 100%;
+  padding: 7px 10px;
+  outline: none;
+  border: 1px solid #d2d6de;
+  transform: translateX(-1px);
+  transition: border 0.25s ease-in-out;
+}
+
+.hienInput:focus {
+  border: 1px solid #3c8dbc;
+}

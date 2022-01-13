@@ -1,0 +1,16 @@
+.addProduct {
+  position: relative;
+  margin: 30px 0;
+  padding: 30px 20px;
+  border: 1px solid #717476;
+}
+
+.addProduct-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0 10px;
+  font-size: 1.25rem;
+  background-color: #fff;
+  transform: translateY(-50%) translateX(10px);
+}

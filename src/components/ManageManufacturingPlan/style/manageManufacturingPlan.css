@@ -1,0 +1,60 @@
+.purchase-content {
+    border-radius: 3px;
+    box-shadow: 0 0 1px rgb(0 0 0 / 13%), 0 1px 3px rgb(0 0 0 / 20%);
+    min-height: 450px;
+    padding: 15px;
+    background-color: var(--background-main);
+    position: relative;
+  }
+  
+  .btnAdd {
+    position: absolute !important;
+    top: 25px;
+    right: 20px;
+  }
+  
+  .purchase-content-wrapper {
+    background-color: var(--background-bg);
+    min-height: calc(100vh - 50px);
+    padding: 20px;
+  }
+  
+  /* HEADER */
+  .purchase-content-header {
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .purchase-content-header h1 {
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+  
+  .breadcrumb {
+    margin: 0;
+  }
+  
+  .breadcrumb li {
+    list-style: none;
+    font-size: 0.75rem;
+  }
+  
+  .breadcrumb li a {
+    color: var(--text-color-light);
+    text-decoration: none;
+  }
+  
+  .breadcrumb li a i {
+    color: var(--text-color-light);
+    font-size: 0.75rem;
+    margin: 5px;
+  }
+  
+  .breadcrumb li:not(:first-child)::before {
+    content: ">";
+    display: inline-block;
+    margin: 0 5px;
+  }
+  

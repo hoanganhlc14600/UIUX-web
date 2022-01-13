@@ -1,0 +1,25 @@
+.purchase-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solide #ddd;
+  }
+  
+  .purchase-table td,
+  .purchase-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .purchase-table th {
+    font-weight: 500;
+  }
+  
+  .purchase-table tr:nth-child(even) {
+    background-color: var(--background-gray);
+  }
+  
+  .purchase-table tr:not(:first-child):hover {
+    background-color: var(--color-hover);
+  }
+  
